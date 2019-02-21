@@ -24,7 +24,7 @@ matrix:
     - env: ROS_DISTRO=lunar   ROS_VERSION=1
     - env: ROS_DISTRO=melodic ROS_VERSION=1
 install:
-  - git clone https://github.com/xabxx/travis-scripts.git .ros_ci
+  - git clone https://github.com/aws-robotics/travis-scripts.git .ros_ci
 script:
   # make travis scripts executable
   - chmod +x .ros_ci/*
